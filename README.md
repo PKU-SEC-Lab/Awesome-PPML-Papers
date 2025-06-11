@@ -45,7 +45,7 @@ This repo contains the papers mentioned in paper XXX.
 * [TACO 2025] HEngine: A High Performance Optimization Framework on a GPU for Homomorphic Encryption [[paper](https://dl.acm.org/doi/10.1145/3732942)]
 * [arXiv 2025] CAT: A GPU-Accelerated FHE Framework with Its Application to High-Precision Private Dataset Query [[paper](https://cs.paperswithcode.com/paper/cat-a-gpu-accelerated-fhe-framework-with-its)] [[code](https://github.com/Rayman96/CAT/tree/main)]
 * [PACT 2024] BoostCom: Towards Efficient Universal Fully Homomorphic Encryption by Boosting the Word-wise Comparisons [[paper](https://dl.acm.org/doi/10.1145/3656019.3676893)]
-* [NIPS Safe Generative AI Workshop 2024] Privacy-Preserving Large Language Model Inference via GPU-Accelerated Fully Homomorphic Encryption [[paper](https://openreview.net/pdf?id=Rs7h1od6ov)] [[code](https://github.com/leodec/openfhe-gpu-public)]
+* [NIPS Safe Generative AI Workshop 2024] Privacy-Preserving Large Language Model Inference via GPU-Accelerated Fully Homomorphic Encryption [[paper](https://openreview.net/forum?id=Rs7h1od6ov)] [[code](https://github.com/leodec/openfhe-gpu-public)]
 * [TDSC 2024] Phantom: A CUDA-Accelerated Word-Wise Homomorphic Encryption Library [[paper](https://ieeexplore.ieee.org/document/10428046)] [[code](https://github.com/encryptorion-lab/phantom-fhe)]
 * [arXiv 2024] Cheddar: A Swift Fully Homomorphic Encryption Library for CUDA GPUs [[paper](https://arxiv.org/abs/2407.13055)] [[code](https://github.com/scale-snu/cheddar-fhe)]
 * [MICRO 2023] GME: Gpu-based microarchitectural extensions to accelerate homomorphic encryption [[paper](https://dl.acm.org/doi/abs/10.1145/3613424.3614279)]
