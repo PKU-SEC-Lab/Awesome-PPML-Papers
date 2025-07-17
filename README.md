@@ -4,11 +4,72 @@ This repo contains the papers mentioned in paper XXX.
 
 ## Protocol-Level Optimization
 
-## Model-Level Optimizations
 
-### Linear Layer Optimizations
+## Model-Level Optimization
+
+### Linear Layer Optimization
 
 * [CCS 2021] COINN: Crypto/ML Codesign for Oblivious Inference via Neural Networks [[paper](https://dl.acm.org/doi/pdf/10.1145/3460120.3484797)] [[code](https://github.com/ACESLabUCSD/COINN)]
+* [ASIA CCS 2022] Hunter: HE-Friendly Structured Pruning for Efficient Privacy-Preserving Deep Learning [[paper](https://dl.acm.org/doi/pdf/10.1145/3488932.3517401)]
+* [arXiv 2022] Efficient ML Models for Practical Secure Inference [[paper](https://arxiv.org/pdf/2209.00411)]
+* [NeurIPS 2023] CoPriv: Network/Protocol Co-Optimization for Communication-Efficient Private Inference [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/f96839fc751b67492e17e70f5c9730e4-Paper-Conference.pdf)]
+* [ICCV 2023] MPCViT: Searching for Accurate and Efficient MPC-Friendly Vision Transformer with Heterogeneous Attention [[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Zeng_MPCViT_Searching_for_Accurate_and_Efficient_MPC-Friendly_Vision_Transformer_with_ICCV_2023_paper.pdf)] [[code](https://github.com/PKU-SEC-Lab/mpcvit)]
+* [NeurIPS 2024] PrivCirNet: Efficient Private Inference via Block Circulant Transformation [[paper](https://eprint.iacr.org/2024/2008.pdf)] [[code](https://github.com/Tianshi-Xu/PrivCirNet)]
+* [arXiv 2024] AERO: Softmax-Only LLMs for Efficient Private Inference [[paper](https://arxiv.org/pdf/2410.13060)]
+* [arXiv 2024] EQO: Exploring Ultra-Efficient Private Inference with Winograd-Based Protocol and Quantization Co-Optimization [[paper](https://arxiv.org/pdf/2404.09404v1)]
+
+### Non-Linear ReLU/GeLU Optimization
+
+* [Security 2020] DELPHI: A Cryptographic Inference Service for Neural Networks [[paper](https://www.usenix.org/system/files/sec20spring_mishra_prepub.pdf)]
+* [NeurIPS 2020] CryptoNAS: Private Inference on a ReLU Budget [[paper](https://papers.neurips.cc/paper_files/paper/2020/file/c519d47c329c79537fbb2b6f1c551ff0-Paper.pdf)]
+* [ICML 2021] DeepReDuce: ReLU Reduction for Fast Private Inference [[paper](https://proceedings.mlr.press/v139/jha21a/jha21a.pdf)]
+* [ICLR 2020] Safenet: A secure, accurate and fast neural network inference [[paper](https://openreview.net/pdf?id=Cz3dbFm5u-)]
+* [IEEE Security & Privacy] Sphynx: A Deep Neural Network Design for Private Inference [[paper](https://arxiv.org/pdf/2106.11755)]
+* [NeurIPS 2021] Circa: Stochastic ReLUs for Private Deep Learning [[paper](https://proceedings.neurips.cc/paper/2021/file/11eba2991cc62daa4a85be5c0cfdae97-Paper.pdf)]
+* [ICML 2022] Selective Network Linearization for Efficient Private Inference [[paper](https://proceedings.mlr.press/v162/cho22a/cho22a.pdf)] [[code](https://github.com/NYU-DICE-Lab/selective_network_linearization)]
+* [arXiv 2022] AESPA: Accuracy Preserving Low-degree Polynomial Activation for Fast Private Inference [[paper](https://arxiv.org/pdf/2201.06699)]
+* [arXiv 2023] RRNet: Towards ReLU-Reduced Neural Network for Two-party Computation Based Private Inference [[paper](https://arxiv.org/pdf/2302.02292)]
+* [ACL 2022] THE-X: Privacy-Preserving Transformer Inference with Homomorphic Encryption [[paper](https://aclanthology.org/2022.findings-acl.277.pdf)]
+* [ICLR 2023] MPCFormer: fast, performant and private Transformer inference with MPC [[paper](https://arxiv.org/pdf/2211.01452)] [[code](https://github.com/DachengLi1/MPCFormer)]
+* [ICCV 2023] MPCViT: Searching for Accurate and Efficient MPC-Friendly Vision Transformer with Heterogeneous Attention [[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Zeng_MPCViT_Searching_for_Accurate_and_Efficient_MPC-Friendly_Vision_Transformer_with_ICCV_2023_paper.pdf)] [[code](https://github.com/PKU-SEC-Lab/mpcvit)]
+* [arXiv 2023] PRIVIT: VISION TRANSFORMERS FOR FAST PRIVATE INFERENCE [[paper](https://arxiv.org/pdf/2310.04604)] [[code](https://github.com/NYU-DICE-Lab/privit)]
+* [NeurIPS 2023] CoPriv: Network/Protocol Co-Optimization for Communication-Efficient Private Inference [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/f96839fc751b67492e17e70f5c9730e4-Paper-Conference.pdf)]
+* [ICCV 2023] AutoReP: Automatic ReLU Replacement for Fast Private Network Inference [[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Peng_AutoReP_Automatic_ReLU_Replacement_for_Fast_Private_Network_Inference_ICCV_2023_paper.pdf)] [[code](https://github.com/HarveyP123/AutoReP)]
+* [ICLR 2023] Learning to Linearize Deep Neural Networks for Secure and Efficient Private Inference [[paper](https://arxiv.org/pdf/2301.09254)]
+* [DAC 2023] PASNet: Polynomial Architecture Search Framework for Two-party Computation-based Secure Neural Network Deployment [[paper](https://arxiv.org/pdf/2306.15513)] [[code](https://github.com/harveyp123/PASNet-DAC2023)]
+* [arXiv 2023] Securing Neural Networks with Knapsack Optimization [[paper](https://arxiv.org/pdf/2304.10442v2)] [[code](https://github.com/yg320/secure_inference)]
+* [arXiv 2023] LLMs Can Understand Encrypted Prompt: Towards Privacy-Computing Friendly Transformers [[paper](https://arxiv.org/pdf/2305.18396)]
+* [arXiv 2023] Optimized Layerwise Approximation for Efficient Private Inference on Fully Homomorphic Encryption [[paper](https://arxiv.org/pdf/2310.10349)]
+* [Security 2024] Fast and Private Inference of Deep Neural Networks by Co-designing Activation Functions [[paper](https://www.usenix.org/system/files/sec24summer-prepub-373-diaa.pdf)] [[code](https://github.com/LucasFenaux/PILLAR-ESPN)]
+* [ICCAD 2023] RNA-ViT: Reduced-Dimension Approximate Normalized Attention Vision Transformers for Latency Efficient Private Inference [[paper](https://ieeexplore.ieee.org/abstract/document/10323702)]
+* [arXiv 2024] AERO: Softmax-Only LLMs for Efficient Private Inference [[paper](https://arxiv.org/pdf/2410.13060)]
+* [ICML 2024] Seesaw: Compensating for Nonlinear Reduction with Linear Computations for Private Inference [[paper](https://proceedings.mlr.press/v235/li24cj.html)]
+* [TMLR 2024] DeepReShape: Redesigning Neural Networks for Efficient Private Inference [[paper](https://arxiv.org/pdf/2304.10593)]
+* [ICML 2024] Ditto: Quantization-aware Secure Inference of Transformers upon MPC [[paper](https://arxiv.org/pdf/2405.05525)]
+
+### Non-Linear Softmax Optimization
+
+* [ACL 2022] THE-X: Privacy-Preserving Transformer Inference with Homomorphic Encryption [[paper](https://aclanthology.org/2022.findings-acl.277.pdf)]
+* [ICLR 2023] MPCFormer: fast, performant and private Transformer inference with MPC [[paper](https://arxiv.org/pdf/2211.01452)] [[code](https://github.com/DachengLi1/MPCFormer)]
+* [ICCV 2023] MPCViT: Searching for Accurate and Efficient MPC-Friendly Vision Transformer with Heterogeneous Attention [[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Zeng_MPCViT_Searching_for_Accurate_and_Efficient_MPC-Friendly_Vision_Transformer_with_ICCV_2023_paper.pdf)] [[code](https://github.com/PKU-SEC-Lab/mpcvit)]
+* [arXiv 2023] PRIVIT: VISION TRANSFORMERS FOR FAST PRIVATE INFERENCE [[paper](https://arxiv.org/pdf/2310.04604)] [[code](https://github.com/NYU-DICE-Lab/privit)]
+* [ICCV 2023] SAL-ViT: Towards Latency Efficient Private Inference on ViT using Selective Attention Search with a Learnable Softmax Approximation [[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_SAL-ViT_Towards_Latency_Efficient_Private_Inference_on_ViT_using_Selective_ICCV_2023_paper.pdf)]
+* [ICCAD 2023] RNA-ViT: Reduced-Dimension Approximate Normalized Attention Vision Transformers for Latency Efficient Private Inference [[paper](https://ieeexplore.ieee.org/abstract/document/10323702)]
+* [Journal of Cryptographic Engineering 2025] MLFormer: a high performance MPC linear inference framework for transformers [[paper](https://link.springer.com/article/10.1007/s13389-024-00365-1)]
+* [arXiv 2024] MPC-Minimized Secure LLM Inference [[paper](https://arxiv.org/pdf/2408.03561)]
+* [arXiv 2024] Power-Softmax: Towards Secure LLM Inference over Encrypted Data [[paper](https://arxiv.org/pdf/2410.09457)]
+* [ICML 2024] Converting Transformers to Polynomial Form for Secure Inference Over Homomorphic Encryption [[paper](https://arxiv.org/pdf/2311.08610)]
+* [ACL 2024] SecFormer: Fast and Accurate Privacy-Preserving Inference for Transformer Models via SMPC [[paper](https://aclanthology.org/2024.findings-acl.790.pdf)] [[code](https://github.com/jinglong696/SecFormer)]
+* [arXiv 2025] MPCache: MPC-Friendly KV Cache Eviction for Efficient Private Large Language Model Inference [[paper](https://arxiv.org/pdf/2501.06807)]
+* [ICLR 2025] CipherPrune: Efficient and Scalable Private Transformer Inference [[paper](https://arxiv.org/pdf/2502.16782)]
+
+### PPML-Friendly Quantization Optimization
+
+* [CCS 2021] COINN: Crypto/ML Codesign for Oblivious Inference via Neural Networks [[paper](https://dl.acm.org/doi/pdf/10.1145/3460120.3484797)] [[code](https://github.com/ACESLabUCSD/COINN)]
+* [Security 2019] XONN: XNOR-based Oblivious Deep Neural Network Inference [[paper](https://eprint.iacr.org/2019/171.pdf)]
+* [ICCAD 2024] PrivQuant: Communication-Efficient Private Inference with Quantized Network/Protocol Co-Optimization [[paper](https://eprint.iacr.org/2024/2021.pdf)]
+* [arXiv 2024] EQO: Exploring Ultra-Efficient Private Inference with Winograd-Based Protocol and Quantization Co-Optimization [[paper](https://arxiv.org/pdf/2404.09404v1)]
+* [ICML 2024] Ditto: Quantization-aware Secure Inference of Transformers upon MPC [[paper](https://arxiv.org/pdf/2405.05525)]
 
 ## System-Level Optimization
 
