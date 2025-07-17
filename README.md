@@ -2,7 +2,7 @@
 
 Welcome! This repository contains the relevant papers mentioned in our survey paper [A Systematic Survey on Cross-Level Privacy-Preserving Machine Learning Acceleration: From Protocol, Model, and System Perspectives]().
 
-🔧 This survey and repository will be **continuously updated and refined** to reflect the latest advancements in the field. We warmly welcome suggestions, corrections, or new paper recommendations from the community to help improve the quality and coverage.
+🔧 This survey and repository will be **continuously updated and refined** to reflect the latest advancements. If you find any missing papers that are relevant to our survey or repository, we warmly welcome you to **raise a pull request**. We also welcome any suggestions and corrections to help improve the quality and coverage.
 
 💡 If you find our work helpful, welcome to cite the survey and share it with others.
 
@@ -159,12 +159,34 @@ Privacy-preserving machine learning (PPML) based on cryptographic protocols has 
 * [TCHES 2021] Over 100x Faster Bootstrapping in Fully Homomorphic Encryption through Memory-centric Optimization with GPUs [[paper](https://tches.iacr.org/index.php/TCHES/article/view/9062)] [[code](https://github.com/scale-snu/ckks-gpu-core)]
 * [Access 2021] Accelerating Fully Homomorphic Encryption Through Architecture-Centric Analysis and Optimization [[paper](https://ieeexplore.ieee.org/document/9481143)]
 
+
 ## 📌 Citation and Feedback
 
 If you find this survey or repository helpful, welcome to cite our work for continued research in this area! We also warmly welcome feedback, suggestions, or contributions to improve this survey and keep the repository up to date.
 
 Feel free to open an issue or pull request.
 
+**Bibtex of this survey:**
 ```bash
-[TODO: Put our paper bibtex here]
+[Bibtex of this survey]
+```
+
+**Bibtex of our published papers:**
+```bash
+@article{xu2024privcirnet,
+  title={Privcirnet: Efficient private inference via block circulant transformation},
+  author={Xu, Tianshi and Wu, Lemeng and Wang, Runsheng and Li, Meng},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={111802--111831},
+  year={2024}
+}
+
+@inproceedings{zeng2023mpcvit,
+  title={Mpcvit: Searching for accurate and efficient mpc-friendly vision transformer with heterogeneous attention},
+  author={Zeng, Wenxuan and Li, Meng and Xiong, Wenjie and Tong, Tong and Lu, Wen-jie and Tan, Jin and Wang, Runsheng and Huang, Ru},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={5052--5063},
+  year={2023}
+}
 ```
