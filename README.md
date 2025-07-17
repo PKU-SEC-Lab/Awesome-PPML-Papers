@@ -112,6 +112,8 @@ Privacy-preserving machine learning (PPML) based on cryptographic protocols has 
 
 ## ⚙ System-Level Optimization
 
+![image](https://github.com/PKU-SEC-Lab/Awesome-PPML-Papers/blob/main/he_compiler.png)
+
 ### Compiler
 
 * [CF 2019] nGraph-HE: A Graph Compiler for Deep Learning on Homomorphically Encrypted Data [[paper](https://dl.acm.org/doi/10.1145/3310273.3323047)] [[code](https://github.com/intel/he-transformer)]
