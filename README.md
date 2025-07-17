@@ -1,19 +1,45 @@
 # Cross-Level Privacy-Preserving Machine Learning (PPML) Acceleration: From Protocol, Model, and System Perspectives
 
-This repo contains the relevant papers mentioned in the [Survey]().
+Welcome! This repository contains the relevant papers mentioned in our survey paper [A Systematic Survey on Cross-Level Privacy-Preserving Machine Learning Acceleration: From Protocol, Model, and System Perspectives]().
 
 ## 👀 Introduction
+
+Privacy-preserving machine learning (PPML) based on cryptographic protocols has emerged as a promising paradigm to protect user data privacy in cloud-based machine learning services. While it achieves formal privacy protection, PPML often incurs significant efficiency and scalability costs due to orders of magnitude overhead compared to the plaintext counterpart. Therefore, there has been a considerable focus on mitigating the efficiency gap for PPML. In this survey, we provide a comprehensive and systematic review of recent PPML studies with a focus on cross-level optimizations. Specifically, we categorize existing papers into protocol level, model level, and system level, and review progress at each level. We also provide qualitative and quantitative comparisons of existing works with technical insights, based on which we discuss future research directions and highlight the necessity of **integrating optimizations across protocol, model, and system levels.**
 
 ![image](https://github.com/PKU-SEC-Lab/Awesome-PPML-Papers/blob/main/2pc_framework.png)
 
 
+## 📚 Table of Contents
+
+- [👀 Introduction](#-introduction)
+- [🔒 Protocol-Level Optimization](#-protocol-level-optimization)
+  - [Linear Layer Optimization](#linear-layer-optimization)
+  - [Non-Linear Layer Optimization](#non-linear-layer-optimization)
+  - [Graph-Level Techniques](#graph-level-techniques)
+- [🤖 Model-Level Optimization](#-model-level-optimization)
+  - [Linear Layer Optimization](#linear-layer-optimization)
+  - [Non-Linear ReLU and GeLU Optimization](#non-linear-relu-and-gelu-optimization)
+  - [Non-Linear Softmax Optimization](#non-linear-softmax-optimization)
+  - [PPML-Friendly Quantization Optimization](#ppml-friendly-quantization-optimization)
+- [⚙️ System-Level Optimization](#-system-level-optimization)
+  - [Compiler](#compiler)
+  - [GPU Optimization](#gpu-optimization)
 
 
-## Protocol-Level Optimization
+
+## 🔒 Protocol-Level Optimization
 
 [TODO]
 
-## Model-Level Optimization
+### Linear Layer Optimization
+
+## Non-Linear Layer Optimization
+
+## Graph-Level Techniques
+
+## 🤖 Model-Level Optimization
+
+![image](https://github.com/PKU-SEC-Lab/Awesome-PPML-Papers/blob/main/model_optimization.png)
 
 ### Linear Layer Optimization
 
@@ -26,7 +52,7 @@ This repo contains the relevant papers mentioned in the [Survey]().
 * [arXiv 2024] AERO: Softmax-Only LLMs for Efficient Private Inference [[paper](https://arxiv.org/pdf/2410.13060)]
 * [arXiv 2024] EQO: Exploring Ultra-Efficient Private Inference with Winograd-Based Protocol and Quantization Co-Optimization [[paper](https://arxiv.org/pdf/2404.09404v1)]
 
-### Non-Linear ReLU/GeLU Optimization
+### Non-Linear ReLU and GeLU Optimization
 
 * [Security 2020] DELPHI: A Cryptographic Inference Service for Neural Networks [[paper](https://www.usenix.org/system/files/sec20spring_mishra_prepub.pdf)]
 * [NeurIPS 2020] CryptoNAS: Private Inference on a ReLU Budget [[paper](https://papers.neurips.cc/paper_files/paper/2020/file/c519d47c329c79537fbb2b6f1c551ff0-Paper.pdf)]
@@ -79,7 +105,7 @@ This repo contains the relevant papers mentioned in the [Survey]().
 * [arXiv 2024] EQO: Exploring Ultra-Efficient Private Inference with Winograd-Based Protocol and Quantization Co-Optimization [[paper](https://arxiv.org/pdf/2404.09404v1)]
 * [ICML 2024] Ditto: Quantization-aware Secure Inference of Transformers upon MPC [[paper](https://arxiv.org/pdf/2405.05525)]
 
-## System-Level Optimization
+## ⚙️ System-Level Optimization
 
 ### Compiler
 
