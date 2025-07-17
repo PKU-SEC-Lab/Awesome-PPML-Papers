@@ -2,6 +2,10 @@
 
 Welcome! This repository contains the relevant papers mentioned in our survey paper [A Systematic Survey on Cross-Level Privacy-Preserving Machine Learning Acceleration: From Protocol, Model, and System Perspectives]().
 
+🔧 This survey and repository will be **continuously updated and refined** to reflect the latest advancements in the field. We warmly welcome suggestions, corrections, or new paper recommendations from the community to help improve the quality and coverage.
+
+💡 If you find our work helpful, welcome to cite the survey and share it with others.
+
 ## 👀 Introduction
 
 Privacy-preserving machine learning (PPML) based on cryptographic protocols has emerged as a promising paradigm to protect user data privacy in cloud-based machine learning services. While it achieves formal privacy protection, PPML often incurs significant efficiency and scalability costs due to orders of magnitude overhead compared to the plaintext counterpart. Therefore, there has been a considerable focus on mitigating the efficiency gap for PPML. In this survey, we provide a comprehensive and systematic review of recent PPML studies with a focus on cross-level optimizations. Specifically, we categorize existing papers into protocol level, model level, and system level, and review progress at each level. We also provide qualitative and quantitative comparisons of existing works with technical insights, based on which we discuss future research directions and highlight the necessity of **integrating optimizations across protocol, model, and system levels.**
@@ -106,7 +110,7 @@ Privacy-preserving machine learning (PPML) based on cryptographic protocols has 
 * [arXiv 2024] EQO: Exploring Ultra-Efficient Private Inference with Winograd-Based Protocol and Quantization Co-Optimization [[paper](https://arxiv.org/pdf/2404.09404v1)]
 * [ICML 2024] Ditto: Quantization-aware Secure Inference of Transformers upon MPC [[paper](https://arxiv.org/pdf/2405.05525)]
 
-## ⚙️ System-Level Optimization
+## ⚙ System-Level Optimization
 
 ### Compiler
 
