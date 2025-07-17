@@ -173,6 +173,13 @@ Feel free to open an issue or pull request.
 
 **Bibtex of our published papers:**
 ```bash
+@article{xu2025blb,
+  title={Breaking the Layer Barrier: Remodeling Private Transformer Inference with Hybrid CKKS and MPC},
+  author={Xu, Tianshi and Lu, Wen-jie and Yu, Jiangrui and Chen, Yi and Lin, Chenqi and Wang, Runsheng and Li, Meng},
+  journal={USENIX Security Symposium},
+  year={2025}
+}
+
 @inproceedings{zhang2025flash,
   title={FLASH: An Efficient Hardware Accelerator Leveraging Approximate and Sparse FFT for Homomorphic Encryption},
   author={Zhang, Tengyu and Xue, Yufei and Liang, Ling and Gu, Zhen and Wang, Yuan and Wang, Runsheng and Huang, Ru and Li, Meng},
