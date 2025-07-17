@@ -2,8 +2,16 @@
 
 This repo contains the relevant papers mentioned in the [Survey]().
 
+## 👀 Introduction
+
+![image](https://github.com/PKU-SEC-Lab/Awesome-PPML-Papers/blob/main/2pc_framework.png)
+
+
+
+
 ## Protocol-Level Optimization
 
+[TODO]
 
 ## Model-Level Optimization
 
