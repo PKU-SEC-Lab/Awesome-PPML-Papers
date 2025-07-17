@@ -173,6 +173,15 @@ Feel free to open an issue or pull request.
 
 **Bibtex of our published papers:**
 ```bash
+@inproceedings{zhang2025flash,
+  title={FLASH: An Efficient Hardware Accelerator Leveraging Approximate and Sparse FFT for Homomorphic Encryption},
+  author={Zhang, Tengyu and Xue, Yufei and Liang, Ling and Gu, Zhen and Wang, Yuan and Wang, Runsheng and Huang, Ru and Li, Meng},
+  booktitle={2025 Design, Automation \& Test in Europe Conference (DATE)},
+  pages={1--7},
+  year={2025},
+  organization={IEEE}
+}
+
 @article{xu2024privcirnet,
   title={Privcirnet: Efficient private inference via block circulant transformation},
   author={Xu, Tianshi and Wu, Lemeng and Wang, Runsheng and Li, Meng},
@@ -180,6 +189,39 @@ Feel free to open an issue or pull request.
   volume={37},
   pages={111802--111831},
   year={2024}
+}
+
+@inproceedings{xu2024privquant,
+  title={PrivQuant: Communication-Efficient Private Inference with Quantized Network/Protocol Co-Optimization},
+  author={Xu, Tianshi and Zhong, Shuzhang and Zeng, Wenxuan and Wang, Runsheng and Li, Meng},
+  booktitle={Proceedings of the 43rd IEEE/ACM International Conference on Computer-Aided Design},
+  pages={1--9},
+  year={2024}
+}
+
+@inproceedings{yu2024flexhe,
+  title={FlexHE: A flexible Kernel Generation Framework for Homomorphic Encryption-Based Private Inference},
+  author={Yu, Jiangrui and Zeng, Wenxuan and Xu, Tianshi and Chen, Renze and Liang, Yun and Wang, Runsheng and Huang, Ru and Li, Meng},
+  booktitle={Proceedings of the 43rd IEEE/ACM International Conference on Computer-Aided Design},
+  pages={1--9},
+  year={2024}
+}
+
+@inproceedings{lin2024fastquery,
+  title={FastQuery: Communication-efficient Embedding Table Query for Private LLMs inference},
+  author={Lin, Chenqi and Xu, Tianshi and Yang, Zebin and Wang, Runsheng and Huang, Ru and Li, Meng},
+  booktitle={Proceedings of the 61st ACM/IEEE Design Automation Conference},
+  pages={1--6},
+  year={2024}
+}
+
+@article{zeng2023copriv,
+  title={Copriv: Network/protocol co-optimization for communication-efficient private inference},
+  author={Zeng, Wenxuan and Li, Meng and Yang, Haichuan and Lu, Wen-jie and Wang, Runsheng and Huang, Ru},
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  pages={78906--78925},
+  year={2023}
 }
 
 @inproceedings{zeng2023mpcvit,
