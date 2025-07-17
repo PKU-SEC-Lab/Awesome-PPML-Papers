@@ -166,12 +166,12 @@ If you find this survey or repository helpful, welcome to cite our work for cont
 
 Feel free to open an issue or pull request.
 
-**Bibtex of this survey:**
+**Below is the bibtex of this PPML survey:**
 ```bash
 [Bibtex of this survey]
 ```
 
-**Bibtex of our published papers:**
+**Below is the bibtex of the PPML papers published by our lab:**
 ```bash
 @article{xu2025blb,
   title={Breaking the Layer Barrier: Remodeling Private Transformer Inference with Hybrid CKKS and MPC},
