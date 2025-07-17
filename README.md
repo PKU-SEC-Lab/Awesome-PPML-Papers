@@ -24,6 +24,7 @@ Privacy-preserving machine learning (PPML) based on cryptographic protocols has 
 - [⚙️ System-Level Optimization](#-system-level-optimization)
   - [Compiler](#compiler)
   - [GPU Optimization](#gpu-optimization)
+- [📌 Citation and Feedback](#-citation-and-feedback)
 
 
 
@@ -33,9 +34,9 @@ Privacy-preserving machine learning (PPML) based on cryptographic protocols has 
 
 ### Linear Layer Optimization
 
-## Non-Linear Layer Optimization
+### Non-Linear Layer Optimization
 
-## Graph-Level Techniques
+### Graph-Level Techniques
 
 ## 🤖 Model-Level Optimization
 
@@ -153,3 +154,13 @@ Privacy-preserving machine learning (PPML) based on cryptographic protocols has 
 * [IPDPS 2022] Accelerating Encrypted Computing on Intel GPUs [[paper](https://ieeexplore.ieee.org/document/9820676)]
 * [TCHES 2021] Over 100x Faster Bootstrapping in Fully Homomorphic Encryption through Memory-centric Optimization with GPUs [[paper](https://tches.iacr.org/index.php/TCHES/article/view/9062)] [[code](https://github.com/scale-snu/ckks-gpu-core)]
 * [Access 2021] Accelerating Fully Homomorphic Encryption Through Architecture-Centric Analysis and Optimization [[paper](https://ieeexplore.ieee.org/document/9481143)]
+
+## 📌 Citation and Feedback
+
+If you find this survey or repository helpful, welcome to cite our work for continued research in this area! We also warmly welcome feedback, suggestions, or contributions to improve this survey and keep the repository up to date.
+
+Feel free to open an issue or pull request.
+
+```bash
+[TODO: Put our paper bibtex here]
+```
