@@ -34,7 +34,7 @@ Privacy-preserving machine learning (PPML) based on cryptographic protocols has 
 
 ## 🔒 Protocol-Level Optimization
 
-![image](https://github.com/PKU-SEC-Lab/Awesome-PPML-Papers/blob/main/he_linear.png)
+[TODO]
 
 ### Linear Layer Optimization
 OT-based protocols:
@@ -47,10 +47,54 @@ OT-based protocols:
 * [arXiv 2024] EQO: Exploring Ultra-Efficient Private Inference with Winograd-Based Protocol and Quantization Co-Optimization [[paper](https://arxiv.org/pdf/2404.09404v1)]
 
 HE-based protocols:
+* [Security 2018] GAZELLE: A low latency framework for secure neural network inference [[paper](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-juvekar.pdf)]
+* [CCS 2018] Secure outsourced matrix computation and application to neural networks [[paper](https://dl.acm.org/doi/abs/10.1145/3243734.3243837)]
+* [Nature Communications 2022] Secure human action recognition by encrypted neural network inference [[paper](https://www.nature.com/articles/s41467-022-32168-5)]
+* [ICML 2022]  Low-complexity deep convolutional neural networks on fully homomorphic encryption using multiplexed parallel convolutions [[paper](https://proceedings.mlr.press/v162/lee22e/lee22e.pdf)]
+* [Security 2022] Cheetah: Lean and fast secure Two-Party deep neural network inference [[paper](https://www.usenix.org/system/files/sec22-huang-zhicong.pdf)] [[code](https://github.com/Alibaba-Gemini-Lab/OpenCheetah)]
+* [NeurIPS 2022] Iron: Private inference on transformers [[paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/64e2449d74f84e5b1a5c96ba7b3d308e-Paper-Conference.pdf)]
+* [ICCAD 2023] Falcon: Accelerating homomorphically encrypted convolutions for efficient private mobile network inference [[paper](https://ieeexplore.ieee.org/abstract/document/10323672)]
+* [TIFS 2023] Optimized privacy-preserving cnn inference with fully homomorphic encryption [[paper](https://ieeexplore.ieee.org/abstract/document/10089847)] [[code](https://github.com/dwkim606/optimal_conv)]
+* [S&P 2024] Bolt: Privacy-preserving, accurate and efficient inference for transformers [[paper](https://ieeexplore.ieee.org/abstract/document/10646705)] [[code](https://github.com/Clive2312/BOLT?tab=readme-ov-file)]
+* [CCS 2024] NeuJeans: Private Neural Network Inference with Joint Optimization of Convolution and FHE Bootstrapping [[paper](https://dl.acm.org/doi/pdf/10.1145/3658644.3690375)]
+* [CCS 2024] Rhombus: Fast homomorphic matrix-vector multiplication for secure two-party inference [[paper](https://dl.acm.org/doi/pdf/10.1145/3658644.3690281)]
+* [NeurIPS 2024] PrivCirNet: Efficient Private Inference via Block Circulant Transformation [[paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/ca9873918aa72e9033041f76e77b5c15-Paper-Conference.pdf)] [[code](https://github.com/Tianshi-Xu/PrivCirNet)]
+* [NDSS 2025] Bumblebee: Secure two-party inference framework for large transformers [[paper](https://eprint.iacr.org/2023/1678.pdf)] [[code](https://github.com/AntCPLab/OpenBumbleBee)]
+* [ACL 2025] Powerformer: Efficient privacy-preserving transformer with batch rectifier-power max function and optimized homomorphic attention [[paper](https://eprint.iacr.org/2024/1429.pdf)]
+* [Security 2025] Breaking the layer barrier: Remodeling private Transformer inference with hybrid CKKS and MPC
+
+Replicated SS (RSS)-based protocols and functional secret sharing (FSS)-based protocols:
+* [CCS 2018] ABY3 A Mixed Protocol Framework for Machine Learning [[paper](https://dl.acm.org/doi/abs/10.1145/3243734.3243760)]
+* [arXiv 2022] Llama: A low latency math library for secure inference [[paper](https://eprint.iacr.org/2022/793.pdf)]
+* [arXiv 2023] Sigma: Secure gpt inference with function secret sharing [[paper](https://eprint.iacr.org/2023/1269.pdf)] [[code](https://github.com/mpc-msri/EzPC)]
+* [arXiv 2024] Puma: Secure inference of llama-7b in five minutes [[paper](https://arxiv.org/pdf/2405.10000)] [[code](https://github.com/secretflow/spu/tree/main/examples/python/ml/flax_llama7b)]
 
 ### Non-Linear Layer Optimization
+Secret Sharing-Based Protocols:
+* [NDSS 2015] ABY-A framework for efficient mixed-protocol secure two-party computation [[paper](https://encrypto.de/papers/DSZ15.pdf)] [[code](https://github.com/encryptogroup/ABY)]
+* [CCS 2017] Oblivious neural network predictions via minionn transformations [[paper](https://dl.acm.org/doi/abs/10.1145/3133956.3134056)]
+* [Security 2019] XONN:XNOR-based oblivious deep neural network inference [[paper]
+(https://www.usenix.org/system/files/sec19-riazi.pdf)]
+* [CCS 2020] Cryptflow2: Practical 2-party secure inference [[paper](https://dl.acm.org/doi/abs/10.1145/3372297.3417274)] [[code](https://github.com/mpc-msri/EzPC)]
+* [S&P 2021] SiRNN: A math library for secure rnn inference [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519413)] [[code](https://github.com/mpc-msri/EzPC)]
+* [CCS 2021] Coinn: Crypto/ml codesign for oblivious inference via neural networks [[paper](https://dl.acm.org/doi/pdf/10.1145/3460120.3484797)] [[code](https://github.com/ACESLabUCSD/COINN)]
+* [DAC 2022] ABNN2 secure two-party arbitrary-bitwidth quantized neural network predictions [[paper](https://dl.acm.org/doi/abs/10.1145/3489517.3530680)]
 
+HE-based protocols:
+* [NutMic 2019] Chimera: a unified framework for B/FV, TFHE and HEAAN fully homomorphic encryption and predictions for deep learning [[paper](https://eprint.iacr.org/2018/758.pdf)]
+* [CSCML 2019] Simulating homomorphic evaluation of deep learning predictions [[paper](https://link.springer.com/chapter/10.1007/978-3-030-20951-3_20)]
+* [TDSC 2021] Minimax approximation of sign function by composite polynomial for
+homomorphic comparison [[paper](https://ieeexplore.ieee.org/abstract/document/9517029)]
+* [CSCML 2021] Programmable bootstrapping enables efficient homomorphic inference of deep neural networks [[paper](https://link.springer.com/chapter/10.1007/978-3-030-78086-9_1)]
+* [ePrint 2021] REDsec: Running encrypted discretized neural networks in seconds [[paper](https://eprint.iacr.org/2021/1100.pdf)]
+* [IEEE Access 2022] Optimization of homomorphic comparison algorithm on rns-ckks scheme [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9724238)]
+* [CSCML 2023] Deep neural networks for encrypted inference with tfhe [[paper](https://link.springer.com/chapter/10.1007/978-3-031-34671-2_34)]
 ### Graph-Level Techniques
+Interactive Protocols with SS-HE Conversion:
+* [Security 2020] DELPHI: A Cryptographic Inference Service for Neural Networks [[paper](https://www.usenix.org/system/files/sec20spring_mishra_prepub.pdf)]
+* [Security 2025] Breaking the layer barrier: Remodeling private Transformer inference with hybrid CKKS and MPC
+
+@chenyi, add Non-Interactive Protocols.
 
 ## 🤖 Model-Level Optimization
 
