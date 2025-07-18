@@ -34,8 +34,6 @@ Privacy-preserving machine learning (PPML) based on cryptographic protocols has 
 
 ## 🔒 Protocol-Level Optimization
 
-[TODO]
-
 ### Linear Layer Optimization
 OT-based protocols:
 * [CCS 2020] Cryptflow2: Practical 2-party secure inference [[paper](https://dl.acm.org/doi/abs/10.1145/3372297.3417274)] [[code](https://github.com/mpc-msri/EzPC)]
