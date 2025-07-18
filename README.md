@@ -34,7 +34,7 @@ Privacy-preserving machine learning (PPML) based on cryptographic protocols has 
 
 ## 🔒 Protocol-Level Optimization
 
-[TODO]
+![image](https://github.com/PKU-SEC-Lab/Awesome-PPML-Papers/blob/main/he_linear.png)
 
 ### Linear Layer Optimization
 OT-based protocols:
