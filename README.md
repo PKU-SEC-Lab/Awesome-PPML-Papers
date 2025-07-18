@@ -94,7 +94,13 @@ Interactive Protocols with SS-HE Conversion:
 * [Security 2020] DELPHI: A Cryptographic Inference Service for Neural Networks [[paper](https://www.usenix.org/system/files/sec20spring_mishra_prepub.pdf)]
 * [Security 2025] Breaking the layer barrier: Remodeling private Transformer inference with hybrid CKKS and MPC
 
-@chenyi, add Non-Interactive Protocols.
+Non-Interactive Protocols with Embedded Bootstrapping Components:
+* [TIFS 2023] Optimized privacy-preserving cnn inference with fully homomorphic encryption [[paper](https://ieeexplore.ieee.org/abstract/document/10089847)] [[code](https://github.com/dwkim606/optimal_conv)]
+* [NeurIPS 2024] PrivCirNet: Efficient Private Inference via Block Circulant Transformation [[paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/ca9873918aa72e9033041f76e77b5c15-Paper-Conference.pdf)]
+
+Non-Interactive Protocols with Level Consumption Reduction:
+* [CF 2019] nGraph-HE: A Graph Compiler for Deep Learning on Homomorphically Encrypted Data [[paper](https://dl.acm.org/doi/10.1145/3310273.3323047)] [[code](https://github.com/intel/he-transformer)]
+* [ICML 2022]  Low-complexity deep convolutional neural networks on fully homomorphic encryption using multiplexed parallel convolutions [[paper](https://proceedings.mlr.press/v162/lee22e/lee22e.pdf)]
 
 ## 🤖 Model-Level Optimization
 
@@ -193,6 +199,8 @@ Interactive Protocols with SS-HE Conversion:
 
 ### GPU Optimization
 
+* [ICML 2025] EncryptedLLM: Privacy-Preserving Large Language Model Inference via GPU-Accelerated Fully Homomorphic Encryption [[paper](https://icml.cc/virtual/2025/poster/45395)]
+* [ISCA 2025] Neo: Towards Efficient Fully Homomorphic Encryption Acceleration using Tensor Core [[paper](https://dl.acm.org/doi/abs/10.1145/3695053.3731408)]
 * [HPCA 2025] WarpDrive: GPU-Based Fully Homomorphic Encryption Acceleration Leveraging Tensor and CUDA Cores [[paper](https://ieeexplore.ieee.org/document/10946827)]
 * [HPCA 2025] Anaheim: Architecture and Algorithms for Processing Fully Homomorphic Encryption in Memory [[paper](https://ieeexplore.ieee.org/document/10946801)]
 * [TCHES 2025] VeloFHE: GPU Acceleration for FHEW and TFHE Bootstrapping [[paper](https://tches.iacr.org/index.php/TCHES/article/view/12211)]
