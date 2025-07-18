@@ -37,6 +37,16 @@ Privacy-preserving machine learning (PPML) based on cryptographic protocols has 
 [TODO]
 
 ### Linear Layer Optimization
+OT-based protocols:
+* [CCS 2020] Cryptflow2: Practical 2-party secure inference [[paper](https://dl.acm.org/doi/abs/10.1145/3372297.3417274)] [[code](https://github.com/mpc-msri/EzPC)]
+* [CCS 2020] Delphi: A cryptographic inference system for neural networks [[paper](https://dl.acm.org/doi/pdf/10.1145/3411501.3419418)]
+* [S&P 2021] SiRNN: A math library for secure rnn inference [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519413)] [[code](https://github.com/mpc-msri/EzPC)]
+* [NeurIPS 2023] Copriv: Network/protocol co-optimization for communication-efficient private inference [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/f96839fc751b67492e17e70f5c9730e4-Paper-Conference.pdf)]
+* [arXiv 2023] Ciphergpt: Secure two-party gpt inference [[paper](https://eprint.iacr.org/2023/1147.pdf)] 
+* [ICCAD 2024] PrivQuant: Communication-Efficient Private Inference with Quantized Network/Protocol Co-Optimization [[paper](https://arxiv.org/pdf/2410.09531)]
+* [arXiv 2024] EQO: Exploring Ultra-Efficient Private Inference with Winograd-Based Protocol and Quantization Co-Optimization [[paper](https://arxiv.org/pdf/2404.09404v1)]
+
+HE-based protocols:
 
 ### Non-Linear Layer Optimization
 
