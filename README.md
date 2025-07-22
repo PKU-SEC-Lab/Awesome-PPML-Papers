@@ -235,13 +235,13 @@ Feel free to open an issue or pull request.
 **Below is the bibtex of this PPML survey:**
 ```bash
 @misc{zeng2025towards,
-      title={Towards Efficient Privacy-Preserving Machine Learning: A Systematic Review from Protocol, Model, and System Perspectives}, 
-      author={Wenxuan Zeng and Tianshi Xu and Yi Chen and Yifan Zhou and Mingzhe Zhang and Jin Tan and Cheng Hong and Meng Li},
-      year={2025},
-      eprint={2507.14519},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR},
-      url={https://arxiv.org/abs/2507.14519}, 
+  title={Towards Efficient Privacy-Preserving Machine Learning: A Systematic Review from Protocol, Model, and System Perspectives}, 
+  author={Wenxuan Zeng and Tianshi Xu and Yi Chen and Yifan Zhou and Mingzhe Zhang and Jin Tan and Cheng Hong and Meng Li},
+  year={2025},
+  eprint={2507.14519},
+  archivePrefix={arXiv},
+  primaryClass={cs.CR},
+  url={https://arxiv.org/abs/2507.14519}, 
 }
 ```
 
