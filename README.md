@@ -1,6 +1,6 @@
 # Towards Efficient Privacy-Preserving Machine Learning: A Systematic Review from Protocol, Model, and System Perspectives
 
-🎉 Welcome! This repository contains the relevant papers mentioned in our survey paper [Towards Efficient Privacy-Preserving Machine Learning: A Systematic Review from Protocol, Model, and System Perspectives]().
+🎉 Welcome! This repository contains the relevant papers mentioned in our survey paper [Towards Efficient Privacy-Preserving Machine Learning: A Systematic Review from Protocol, Model, and System Perspectives](https://arxiv.org/pdf/2507.14519).
 
 🔧 This survey and repository will be **continuously updated and refined** to reflect the latest advancements. If you find any missing papers that are relevant to our survey or repository, we warmly welcome you to **raise a pull request**. We also welcome any suggestions and corrections to help improve the quality and coverage.
 
