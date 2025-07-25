@@ -197,6 +197,7 @@ Non-Interactive Protocols with Level Consumption Reduction:
 * [ASPLOS 2025] HALO: Loop-aware Bootstrapping Management for Fully Homomorphic Encryption [[paper](https://dl.acm.org/doi/10.1145/3669940.3707275)]
 * [ASPLOS 2025] ReSBM: Region-based Scale and Minimal-Level Bootstrapping Management for FHE via Min-Cut [[paper](https://dl.acm.org/doi/10.1145/3669940.3707276)]
 * [ASPLOS 2025] Orion: A Fully Homomorphic Encryption Framework for Deep Learning [[paper](https://dl.acm.org/doi/10.1145/3676641.3716008)] [[code](https://github.com/baahl-nyu/orion)]
+* [ePrint 2025] Bridging Usability and Performance: A Tensor Compiler for Autovectorizing Homomorphic Encryption [[paper](https://eprint.iacr.org/2025/1319)]
 
 
 ### GPU Optimization
@@ -208,7 +209,6 @@ Non-Interactive Protocols with Level Consumption Reduction:
 * [TCHES 2025] VeloFHE: GPU Acceleration for FHEW and TFHE Bootstrapping [[paper](https://tches.iacr.org/index.php/TCHES/article/view/12211)]
 * [TCHES 2025] GPU Acceleration for FHEW/TFHE Bootstrapping [[paper](https://tches.iacr.org/index.php/TCHES/article/view/11931)]
 * [PoPETS 2025] Hardware-Accelerated Encrypted Execution of General-Purpose Applications [[paper](https://petsymposium.org/popets/2025/popets-2025-0039.php)] [[video](https://www.nvidia.com/en-us/on-demand/session/gtcspring23-s51936/)]
-* [TACO 2025] HEngine: A High Performance Optimization Framework on a GPU for Homomorphic Encryption [[paper](https://dl.acm.org/doi/10.1145/3732942)]
 * [arXiv 2025] CAT: A GPU-Accelerated FHE Framework with Its Application to High-Precision Private Dataset Query [[paper](https://cs.paperswithcode.com/paper/cat-a-gpu-accelerated-fhe-framework-with-its)] [[code](https://github.com/Rayman96/CAT/tree/main)]
 * [PACT 2024] BoostCom: Towards Efficient Universal Fully Homomorphic Encryption by Boosting the Word-wise Comparisons [[paper](https://dl.acm.org/doi/10.1145/3656019.3676893)]
 * [NIPS Safe Generative AI Workshop 2024] Privacy-Preserving Large Language Model Inference via GPU-Accelerated Fully Homomorphic Encryption [[paper](https://openreview.net/forum?id=Rs7h1od6ov)] [[code](https://github.com/leodec/openfhe-gpu-public)]
