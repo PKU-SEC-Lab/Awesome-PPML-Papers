@@ -61,6 +61,7 @@ Privacy-preserving machine learning (PPML) based on cryptographic protocols has 
 * [NDSS 2025] Bumblebee: Secure two-party inference framework for large transformers [[paper](https://eprint.iacr.org/2023/1678.pdf)] [[code](https://github.com/AntCPLab/OpenBumbleBee)]
 * [ACL 2025] Powerformer: Efficient privacy-preserving transformer with batch rectifier-power max function and optimized homomorphic attention [[paper](https://eprint.iacr.org/2024/1429.pdf)]
 * [Security 2025] Breaking the layer barrier: Remodeling private Transformer inference with hybrid CKKS and MPC
+* [CCS 2025] Lodia: Towards Optimal Sparse Matrix-Vector Multiplication for Batched Fully Homomorphic Encryption [[paper](https://eprint.iacr.org/2025/1425.pdf)]
 
 **Replicated SS (RSS)-based protocols and functional secret sharing (FSS)-based protocols:**
 * [CCS 2018] ABY3 A Mixed Protocol Framework for Machine Learning [[paper](https://dl.acm.org/doi/abs/10.1145/3243734.3243760)]
@@ -68,7 +69,9 @@ Privacy-preserving machine learning (PPML) based on cryptographic protocols has 
 * [arXiv 2023] Sigma: Secure gpt inference with function secret sharing [[paper](https://eprint.iacr.org/2023/1269.pdf)] [[code](https://github.com/mpc-msri/EzPC)]
 * [arXiv 2024] Puma: Secure inference of llama-7b in five minutes [[paper](https://arxiv.org/pdf/2405.10000)] [[code](https://github.com/secretflow/spu/tree/main/examples/python/ml/flax_llama7b)]
 
+
 ### Non-Linear Layer Optimization
+
 **Secret Sharing-based Protocols:**
 * [NDSS 2015] ABY-A framework for efficient mixed-protocol secure two-party computation [[paper](https://encrypto.de/papers/DSZ15.pdf)] [[code](https://github.com/encryptogroup/ABY)]
 * [CCS 2017] Oblivious neural network predictions via minionn transformations [[paper](https://dl.acm.org/doi/abs/10.1145/3133956.3134056)]
@@ -78,6 +81,8 @@ Privacy-preserving machine learning (PPML) based on cryptographic protocols has 
 * [S&P 2021] SiRNN: A math library for secure rnn inference [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9519413)] [[code](https://github.com/mpc-msri/EzPC)]
 * [CCS 2021] Coinn: Crypto/ml codesign for oblivious inference via neural networks [[paper](https://dl.acm.org/doi/pdf/10.1145/3460120.3484797)] [[code](https://github.com/ACESLabUCSD/COINN)]
 * [DAC 2022] ABNN2 secure two-party arbitrary-bitwidth quantized neural network predictions [[paper](https://dl.acm.org/doi/abs/10.1145/3489517.3530680)]
+* [arXiv 2025] Privacy-Preserving Inference for Quantized BERT Models [[paper](https://www.arxiv.org/pdf/2508.01636)]
+* [IEEE TDSC 2025] Antelope: Fast and Secure Neural Network Inference [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11119433)]
 
 **HE-based protocols:**
 * [NutMic 2019] Chimera: a unified framework for B/FV, TFHE and HEAAN fully homomorphic encryption and predictions for deep learning [[paper](https://eprint.iacr.org/2018/758.pdf)]
@@ -171,6 +176,8 @@ Non-Interactive Protocols with Level Consumption Reduction:
 * [ICCAD 2024] PrivQuant: Communication-Efficient Private Inference with Quantized Network/Protocol Co-Optimization [[paper](https://eprint.iacr.org/2024/2021.pdf)]
 * [arXiv 2024] EQO: Exploring Ultra-Efficient Private Inference with Winograd-Based Protocol and Quantization Co-Optimization [[paper](https://arxiv.org/pdf/2404.09404v1)]
 * [ICML 2024] Ditto: Quantization-aware Secure Inference of Transformers upon MPC [[paper](https://arxiv.org/pdf/2405.05525)]
+* [DAC 2024] FastQuery: Communication-efficient Embedding Table Query for Private LLMs inference
+* [arXiv 2025] Privacy-Preserving Inference for Quantized BERT Models [[paper](https://www.arxiv.org/pdf/2508.01636)]
 
 ## ⚙ System-Level Optimization
 
