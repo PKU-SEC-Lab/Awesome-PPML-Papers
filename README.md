@@ -208,7 +208,8 @@ Non-Interactive Protocols with Level Consumption Reduction:
 
 
 ### GPU Optimization
-
+* [ISPASS 2025] FIDESlib: A Fully-Fledged Open-Source FHE Library for Efficient CKKS on GPUs [[paper](https://arxiv.org/html/2507.04775v1)] [[code](https://arxiv.org/html/2507.04775v1)]
+* [ASPOLS 2025] Cheddar: A Swift Fully Homomorphic Encryption  Library Designed for GPU Architectures [[paper](https://arxiv.org/abs/2407.13055)] [[code](https://github.com/scale-snu/cheddar-fhe)]
 * [ICML 2025] EncryptedLLM: Privacy-Preserving Large Language Model Inference via GPU-Accelerated Fully Homomorphic Encryption [[paper](https://icml.cc/virtual/2025/poster/45395)]
 * [ISCA 2025] Neo: Towards Efficient Fully Homomorphic Encryption Acceleration using Tensor Core [[paper](https://dl.acm.org/doi/abs/10.1145/3695053.3731408)]
 * [HPCA 2025] WarpDrive: GPU-Based Fully Homomorphic Encryption Acceleration Leveraging Tensor and CUDA Cores [[paper](https://ieeexplore.ieee.org/document/10946827)]
@@ -220,7 +221,6 @@ Non-Interactive Protocols with Level Consumption Reduction:
 * [PACT 2024] BoostCom: Towards Efficient Universal Fully Homomorphic Encryption by Boosting the Word-wise Comparisons [[paper](https://dl.acm.org/doi/10.1145/3656019.3676893)]
 * [NIPS Safe Generative AI Workshop 2024] Privacy-Preserving Large Language Model Inference via GPU-Accelerated Fully Homomorphic Encryption [[paper](https://openreview.net/forum?id=Rs7h1od6ov)] [[code](https://github.com/leodec/openfhe-gpu-public)]
 * [TDSC 2024] Phantom: A CUDA-Accelerated Word-Wise Homomorphic Encryption Library [[paper](https://ieeexplore.ieee.org/document/10428046)] [[code](https://github.com/encryptorion-lab/phantom-fhe)]
-* [arXiv 2024] Cheddar: A Swift Fully Homomorphic Encryption Library for CUDA GPUs [[paper](https://arxiv.org/abs/2407.13055)] [[code](https://github.com/scale-snu/cheddar-fhe)]
 * [MICRO 2023] GME: Gpu-based microarchitectural extensions to accelerate homomorphic encryption [[paper](https://dl.acm.org/doi/abs/10.1145/3613424.3614279)]
 * [HPCA 2023] TensorFHE: Achieving Practical Computation on Encrypted Data Using GPGPU [[paper](https://ieeexplore.ieee.org/document/10071017)] [[code](https://hub.docker.com/r/suen0/tensorfhe)]
 * [IPDPS 2023] Towards Faster Fully Homomorphic Encryption Implementation with Integer and Floating-point Computing Power of GPUs [[paper](https://ieeexplore.ieee.org/document/10177431)]
