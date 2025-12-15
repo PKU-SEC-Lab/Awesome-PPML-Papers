@@ -62,6 +62,7 @@ Privacy-preserving machine learning (PPML) based on cryptographic protocols has 
 * [ACL 2025] Powerformer: Efficient privacy-preserving transformer with batch rectifier-power max function and optimized homomorphic attention [[paper](https://eprint.iacr.org/2024/1429.pdf)]
 * [Security 2025] Breaking the layer barrier: Remodeling private Transformer inference with hybrid CKKS and MPC
 * [CCS 2025] Lodia: Towards Optimal Sparse Matrix-Vector Multiplication for Batched Fully Homomorphic Encryption [[paper](https://eprint.iacr.org/2025/1425.pdf)]
+* [CCS 2025] WPC: Weight Plaintext Compression for CNN Inference based on RNS-CKKS [[paper](https://dl.acm.org/doi/10.1145/3719027.3765022)]
 
 **Replicated SS (RSS)-based protocols and functional secret sharing (FSS)-based protocols:**
 * [CCS 2018] ABY3 A Mixed Protocol Framework for Machine Learning [[paper](https://dl.acm.org/doi/abs/10.1145/3243734.3243760)]
@@ -152,6 +153,7 @@ Non-Interactive Protocols with Level Consumption Reduction:
 * [ICML 2024] Seesaw: Compensating for Nonlinear Reduction with Linear Computations for Private Inference [[paper](https://proceedings.mlr.press/v235/li24cj.html)]
 * [TMLR 2024] DeepReShape: Redesigning Neural Networks for Efficient Private Inference [[paper](https://arxiv.org/pdf/2304.10593)]
 * [ICML 2024] Ditto: Quantization-aware Secure Inference of Transformers upon MPC [[paper](https://arxiv.org/pdf/2405.05525)]
+* [Security 2025] SLOTHE: Lazy Approximation of Non-Arithmetic Neural Network Functions over Encrypted Data [[paper](https://www.usenix.org/system/files/usenixsecurity25-nam-slothe.pdf)] [[code](https://github.com/SNUSOR-PECT/SLOTHE)]
 
 ### Non-Linear Softmax Optimization
 
@@ -205,11 +207,13 @@ Non-Interactive Protocols with Level Consumption Reduction:
 * [ASPLOS 2025] ReSBM: Region-based Scale and Minimal-Level Bootstrapping Management for FHE via Min-Cut [[paper](https://dl.acm.org/doi/10.1145/3669940.3707276)]
 * [ASPLOS 2025] Orion: A Fully Homomorphic Encryption Framework for Deep Learning [[paper](https://dl.acm.org/doi/10.1145/3676641.3716008)] [[code](https://github.com/baahl-nyu/orion)]
 * [ePrint 2025] Bridging Usability and Performance: A Tensor Compiler for Autovectorizing Homomorphic Encryption [[paper](https://eprint.iacr.org/2025/1319)]
+* [ASPLOS] LOHEN: Layer-wise Optimizations for Neural Network Inferences over Encrypted Data with high Performance or Accuracy [[paper](https://www.usenix.org/system/files/usenixsecurity25-nam-lohen.pdf)] [[code](https://github.com/SNUSOR-PECT/LOHEN_Public)]
 
 
 ### GPU Optimization
+* [ESORCIS 2025] Athena: Accelerating KeySwitch and Bootstrapping for Fully Homomorphic Encryption on CUDA GPU [[paper](https://link.springer.com/chapter/10.1007/978-3-032-07891-9_23)]
 * [ISPASS 2025] FIDESlib: A Fully-Fledged Open-Source FHE Library for Efficient CKKS on GPUs [[paper](https://arxiv.org/html/2507.04775v1)] [[code](https://arxiv.org/html/2507.04775v1)]
-* [ASPOLS 2025] Cheddar: A Swift Fully Homomorphic Encryption  Library Designed for GPU Architectures [[paper](https://arxiv.org/abs/2407.13055)] [[code](https://github.com/scale-snu/cheddar-fhe)]
+* [ASPLOS 2025] Cheddar: A Swift Fully Homomorphic Encryption  Library Designed for GPU Architectures [[paper](https://arxiv.org/abs/2407.13055)] [[code](https://github.com/scale-snu/cheddar-fhe)]
 * [ICML 2025] EncryptedLLM: Privacy-Preserving Large Language Model Inference via GPU-Accelerated Fully Homomorphic Encryption [[paper](https://icml.cc/virtual/2025/poster/45395)]
 * [ISCA 2025] Neo: Towards Efficient Fully Homomorphic Encryption Acceleration using Tensor Core [[paper](https://dl.acm.org/doi/abs/10.1145/3695053.3731408)]
 * [HPCA 2025] WarpDrive: GPU-Based Fully Homomorphic Encryption Acceleration Leveraging Tensor and CUDA Cores [[paper](https://ieeexplore.ieee.org/document/10946827)]
