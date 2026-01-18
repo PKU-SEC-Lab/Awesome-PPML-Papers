@@ -126,6 +126,7 @@ Non-Interactive Protocols with Level Consumption Reduction:
 * [NeurIPS 2024] PrivCirNet: Efficient Private Inference via Block Circulant Transformation [[paper](https://eprint.iacr.org/2024/2008.pdf)] [[code](https://github.com/Tianshi-Xu/PrivCirNet)]
 * [arXiv 2024] AERO: Softmax-Only LLMs for Efficient Private Inference [[paper](https://arxiv.org/pdf/2410.13060)]
 * [arXiv 2024] EQO: Exploring Ultra-Efficient Private Inference with Winograd-Based Protocol and Quantization Co-Optimization [[paper](https://arxiv.org/pdf/2404.09404v1)]
+* [arXiv 2025] CryptPEFT: Efficient and Private Neural Network Inference via Parameter-Efficient Fine-Tuning [[paper](https://arxiv.org/pdf/2508.12264)]
 
 ### Non-Linear ReLU and GeLU Optimization
 
@@ -156,6 +157,7 @@ Non-Interactive Protocols with Level Consumption Reduction:
 * [TMLR 2024] DeepReShape: Redesigning Neural Networks for Efficient Private Inference [[paper](https://arxiv.org/pdf/2304.10593)]
 * [ICML 2024] Ditto: Quantization-aware Secure Inference of Transformers upon MPC [[paper](https://arxiv.org/pdf/2405.05525)]
 * [Security 2025] SLOTHE: Lazy Approximation of Non-Arithmetic Neural Network Functions over Encrypted Data [[paper](https://www.usenix.org/system/files/usenixsecurity25-nam-slothe.pdf)] [[code](https://github.com/SNUSOR-PECT/SLOTHE)]
+* [arXiv 2025] CryptPEFT: Efficient and Private Neural Network Inference via Parameter-Efficient Fine-Tuning [[paper](https://arxiv.org/pdf/2508.12264)]
 
 ### Non-Linear Softmax Optimization
 
