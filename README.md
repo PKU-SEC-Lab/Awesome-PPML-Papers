@@ -170,7 +170,7 @@ Non-Interactive Protocols with Level Consumption Reduction:
 * [arXiv 2024] Power-Softmax: Towards Secure LLM Inference over Encrypted Data [[paper](https://arxiv.org/pdf/2410.09457)]
 * [ICML 2024] Converting Transformers to Polynomial Form for Secure Inference Over Homomorphic Encryption [[paper](https://arxiv.org/pdf/2311.08610)]
 * [ACL 2024] SecFormer: Fast and Accurate Privacy-Preserving Inference for Transformer Models via SMPC [[paper](https://aclanthology.org/2024.findings-acl.790.pdf)] [[code](https://github.com/jinglong696/SecFormer)]
-* [arXiv 2025] MPCache: MPC-Friendly KV Cache Eviction for Efficient Private Large Language Model Inference [[paper](https://arxiv.org/pdf/2501.06807)]
+* [NeurIPS 2025] MPCache: MPC-Friendly KV Cache Eviction for Efficient Private Large Language Model Inference [[paper](https://arxiv.org/pdf/2501.06807)] [[code](https://github.com/PKU-SEC-Lab/MPCache)]
 * [ICLR 2025] CipherPrune: Efficient and Scalable Private Transformer Inference [[paper](https://arxiv.org/pdf/2502.16782)]
 
 ### PPML-Friendly Quantization Optimization
@@ -260,6 +260,13 @@ Feel free to open an issue or pull request.
 
 **Below is the bibtex of the PPML papers published by our lab:**
 ```bash
+@article{zeng2025mpcache,
+  title={MPCache: MPC-Friendly KV Cache Eviction for Efficient Private Large Language Model Inference},
+  author={Zeng, Wenxuan and Dong, Ye and Zhou, Jinjin and Ma, Junming and Tan, Jin and Wang, Runsheng and Li, Meng},
+  journal={arXiv preprint arXiv:2501.06807},
+  year={2025}
+}
+
 @inproceedings{xu2025breaking,
   title={Breaking the layer barrier: Remodeling private transformer inference with hybrid CKKS and MPC},
   author={Xu, Tianshi and Lu, Wen-jie and Yu, Jiangrui and Chen, Yi and Lin, Chenqi and Wang, Runsheng and Li, Meng},
