@@ -60,9 +60,10 @@ Privacy-preserving machine learning (PPML) based on cryptographic protocols has 
 * [NeurIPS 2024] PrivCirNet: Efficient Private Inference via Block Circulant Transformation [[paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/ca9873918aa72e9033041f76e77b5c15-Paper-Conference.pdf)] [[code](https://github.com/Tianshi-Xu/PrivCirNet)]
 * [NDSS 2025] Bumblebee: Secure two-party inference framework for large transformers [[paper](https://eprint.iacr.org/2023/1678.pdf)] [[code](https://github.com/AntCPLab/OpenBumbleBee)]
 * [ACL 2025] Powerformer: Efficient privacy-preserving transformer with batch rectifier-power max function and optimized homomorphic attention [[paper](https://eprint.iacr.org/2024/1429.pdf)]
-* [Security 2025] Breaking the layer barrier: Remodeling private Transformer inference with hybrid CKKS and MPC
+* [Security 2025] Breaking the layer barrier: Remodeling private transformer inference with hybrid CKKS and MPC
 * [CCS 2025] Lodia: Towards Optimal Sparse Matrix-Vector Multiplication for Batched Fully Homomorphic Encryption [[paper](https://eprint.iacr.org/2025/1425.pdf)]
 * [CCS 2025] WPC: Weight Plaintext Compression for CNN Inference based on RNS-CKKS [[paper](https://dl.acm.org/doi/10.1145/3719027.3765022)]
+* [CCS 2025] THOR: Secure Transformer Inference with Homomorphic Encryption [[paper](https://dl.acm.org/doi/pdf/10.1145/3719027.3765150)]
 
 **Replicated SS (RSS)-based protocols and functional secret sharing (FSS)-based protocols:**
 * [CCS 2018] ABY3 A Mixed Protocol Framework for Machine Learning [[paper](https://dl.acm.org/doi/abs/10.1145/3243734.3243760)]
@@ -94,6 +95,7 @@ homomorphic comparison [[paper](https://ieeexplore.ieee.org/abstract/document/95
 * [ePrint 2021] REDsec: Running encrypted discretized neural networks in seconds [[paper](https://eprint.iacr.org/2021/1100.pdf)]
 * [IEEE Access 2022] Optimization of homomorphic comparison algorithm on rns-ckks scheme [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9724238)]
 * [CSCML 2023] Deep neural networks for encrypted inference with tfhe [[paper](https://link.springer.com/chapter/10.1007/978-3-031-34671-2_34)]
+* [CCS 2025] THOR: Secure Transformer Inference with Homomorphic Encryption [[paper](https://dl.acm.org/doi/pdf/10.1145/3719027.3765150)]
 
 ### Graph-Level Techniques
 Interactive Protocols with SS-HE Conversion:
@@ -258,10 +260,11 @@ Feel free to open an issue or pull request.
 
 **Below is the bibtex of the PPML papers published by our lab:**
 ```bash
-@article{xu2025blb,
-  title={Breaking the Layer Barrier: Remodeling Private Transformer Inference with Hybrid CKKS and MPC},
+@inproceedings{xu2025breaking,
+  title={Breaking the layer barrier: Remodeling private transformer inference with hybrid CKKS and MPC},
   author={Xu, Tianshi and Lu, Wen-jie and Yu, Jiangrui and Chen, Yi and Lin, Chenqi and Wang, Runsheng and Li, Meng},
-  journal={USENIX Security Symposium},
+  booktitle={34th USENIX Security Symposium (USENIX Security 25)},
+  pages={2653--2672},
   year={2025}
 }
 
